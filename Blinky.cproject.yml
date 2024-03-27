@@ -20,7 +20,8 @@ project:
   components:
     - component: ARM::CMSIS:CORE
     - component: ARM::CMSIS:RTOS2:Keil RTX5&Source
-    - component: Keil::Compiler&ARM Compiler:Event Recorder&DAP
+    - component: ARM::CMSIS:OS Tick
+    - component: ARM::CMSIS-View:Event Recorder&DAP
     - component: Keil::Board Support&NUCLEO-G0B1RE:Drivers:Basic I/O
     - component: Keil::CMSIS Driver:VIO:Board&NUCLEO-G0B1RE
     - component: Keil::Device:STM32Cube HAL:Common
